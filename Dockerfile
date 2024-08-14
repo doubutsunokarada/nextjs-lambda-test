@@ -1,4 +1,4 @@
-FROM node:lts-bookworm-slim
+FROM node:lts-bookworm-slim AS base
 
 # Install dependencies only when needed
 FROM base AS deps
